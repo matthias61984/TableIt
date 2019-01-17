@@ -1,4 +1,22 @@
 {
+  "name": "TableIt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthias61984/TableIt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthias61984/TableIt/issues"
+  },
+  "homepage": "https://github.com/matthias61984/TableIt#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^6.2.0"
