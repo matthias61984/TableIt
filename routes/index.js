@@ -5,11 +5,11 @@ const axios = require("axios");
 
 const config = {
   headers: {
-    'user-key': '4ef06bf14aba6e0bcd3f7668a7b86e17'
+    'user-key': 'process.env.apiKey'
   }
 };
 
-axios.defaults.headers.common['user-key'] = '4ef06bf14aba6e0bcd3f7668a7b86e17'
+axios.defaults.headers.common['user-key'] = 'process.env.apiKey'
 
 axios.get("https://developers.zomato.com/api/v2.1/search?entity_id=302&entity_type=city&count=25&sort=rating", {config})
     .then((response) => {
