@@ -11,6 +11,7 @@ function App() {
         <Navbar />
         <Wrapper>
           <Route exact path="/" component={Login} />
+          <Route exact path="/login" component={Login} />
         </Wrapper>
       </div>
     </Router>
